@@ -10,6 +10,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{78F1837E-4D9B-4FE1-91CC-3BD0C3FACCF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{C3D1812D-6169-4789-A50B-C807A97B6008}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{C0AD190F-2F3F-4AAB-B08F-73EA48A940B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Persistance", "4 - Persistance", "{BEFE4112-8F7B-419D-BB4B-32D37F841307}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 -Test", "5 -Test", "{A5D78046-F96A-4BAD-AB47-75265A22B675}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Documentation", "6 - Documentation", "{5373EE28-6EEA-4F90-8A22-9EFCCB5E4302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionAppUnitTest", "FunctionAppUnitTest\FunctionAppUnitTest.csproj", "{7615C0B9-AB59-4114-9582-B4322EE22CCF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{66BE7F6C-6BC5-4066-A226-4E39B0835B11} = {66BE7F6C-6BC5-4066-A226-4E39B0835B11}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +37,17 @@ Global
 		{66BE7F6C-6BC5-4066-A226-4E39B0835B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66BE7F6C-6BC5-4066-A226-4E39B0835B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66BE7F6C-6BC5-4066-A226-4E39B0835B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7615C0B9-AB59-4114-9582-B4322EE22CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7615C0B9-AB59-4114-9582-B4322EE22CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7615C0B9-AB59-4114-9582-B4322EE22CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7615C0B9-AB59-4114-9582-B4322EE22CCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66BE7F6C-6BC5-4066-A226-4E39B0835B11} = {78F1837E-4D9B-4FE1-91CC-3BD0C3FACCF3}
+		{7615C0B9-AB59-4114-9582-B4322EE22CCF} = {A5D78046-F96A-4BAD-AB47-75265A22B675}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B49EBC12-2885-41CD-A289-7FF448055C67}
